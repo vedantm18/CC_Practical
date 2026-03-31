@@ -12,7 +12,7 @@ public class Cal{
     return a*b;
   }
   public double divide(int a,int b){
-    return a/b;
+    return (double) a/b;
   }
 
   public static void main(String args[]){
@@ -46,7 +46,7 @@ public class Cal{
 
         case "5":
           System.out.println("Exiting");
-          break;
+           return;
 
         default:
           System.out.println("Invaild choice");
