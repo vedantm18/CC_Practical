@@ -18,7 +18,7 @@ public class Cal{
   public static void main(String args[]){
     Scanner sc=new Scanner(System.in);
     System.out.println("----Calculator----");
-     char choice="";
+     String choice="";
     Cal c=new Cal();
     while(true){
       System.out.println("Select an option ");
@@ -26,25 +26,25 @@ public class Cal{
       System.out.println("2. -");
       System.out.println("3. *");
       System.out.println("4. /");
-      System.out.println("5. "Exit");
+      System.out.println("5. Exit");
 
        choice=sc.nextLine();
 
       switch(choice){
-        case 1:
-          System.out.println("Result of a+b is"+" "+c.add(10,20);
+        case "1":
+          System.out.println("Result of a+b is"+" "+c.add(10,20));
           break;
-        case 2:
-          System.out.println("Result of a-b is"+" "+c.subtract(20,10);
+        case "2":
+          System.out.println("Result of a-b is"+" "+c.subtract(20,10));
           break;
-        case 3:
-          System.out.println("Result of a*b is"+" "+c.multiply(10,20);
+        case "3":
+          System.out.println("Result of a*b is"+" "+c.multiply(10,20));
           break;
-        case 4:
-          System.out.println("Result of a/b is"+" "+c.divide(20,10);
+        case "4":
+          System.out.println("Result of a/b is"+" "+c.divide(20,10));
           break;
 
-        case 5:
+        case "5":
           System.out.println("Exiting");
           break;
 
