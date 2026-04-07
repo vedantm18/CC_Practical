@@ -12,7 +12,7 @@ public class Matrix{
 }
  for(int i=0;i<arr3.length;i++){
    for(int j=0;j<arr3[0].length;j++){
-     System.out.println("  "+arr3[i][j]);
+     System.out.print("  "+arr3[i][j]);
    }
     System.out.println();
 }
