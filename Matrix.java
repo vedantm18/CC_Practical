@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class AddMatrix{
+public class Matrix{
 
    static void addMatrix(int arr1[][],int arr2[][]){
       int arr3[][]=new int[3][3];
