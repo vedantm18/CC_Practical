@@ -12,7 +12,7 @@ public class AddMatrix{
 }
  for(int i=0;i<arr3.length;i++){
    for(int j=0;i<arr3[0].length;j++){
-     System.out.println(arr[i][j]);
+     System.out.println(arr3[i][j]);
    }
 }
 
